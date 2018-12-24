@@ -28,15 +28,15 @@ To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual
 (2) Clone repository and install dependencies
 
 ```bash
-git clone https://github.com/psmenon/Navigation-RL.git
+git clone https://github.com/psmenon/Continous-Control.git
 cd python
 pip install .
 ```
 
-(3) Place the environment file Banana_Linux.zip in the p1_navigation/ folder and unzip the file:
+(3) Place the environment file Reacher_Linux.zip in the p2_continous-control/ folder and unzip the file:
 
 ```bash
-$ unzip Banana_Linux.zip
+$ unzip Reacher_Linux.zip
 ```
 
 (4)  Launch Jupyter notebook
