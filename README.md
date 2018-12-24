@@ -12,5 +12,36 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 The task is episodic. In order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes.
 
+## Training in Linux
 
+1. Download the environment:  
+
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+    
+To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) to obtain the environment.
+
+(1) Create and activate a Python 3.6 environment using Anaconda:
+   
+   	conda create --name name_of_environment python=3.6
+	source activate name_of_environment
+
+(2) Clone repository and install dependencies
+
+```bash
+git clone https://github.com/psmenon/Navigation-RL.git
+cd python
+pip install .
+```
+
+(3) Place the environment file Banana_Linux.zip in the p1_navigation/ folder and unzip the file:
+
+```bash
+$ unzip Banana_Linux.zip
+```
+
+(4)  Launch Jupyter notebook
+
+```bash
+$ jupyter notebook
+```
 
