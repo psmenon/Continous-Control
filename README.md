@@ -44,4 +44,20 @@ $ unzip Reacher_Linux.zip
 ```bash
 $ jupyter notebook
 ```
+## Files
 
+```bash
+TD3_agent.py - contains the Agent .
+
+model.py -  contains the Pytorch neural network (actor and critic).
+
+Continuous_Control.ipynb -  contains the code.
+
+checkpoint_Actor.pth -  contains the weights of the solved actor network
+
+checkpoint_Critic1.pth - contains the weights of the solved critic1 network
+
+checkpoint_Critic2.pth - contains the weights of the solved critic2 network
+
+Report.pdf - the project report
+```
