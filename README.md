@@ -48,7 +48,7 @@ $ jupyter notebook
 
 TD3_agent.py - contains the Agent .
 
-model.py -  contains the Pytorch neural network actor and critic classes .
+model.py -  contains the Pytorch neural network (actor and critic).
 
 Continuous_Control.ipynb -  contains the code.
 
