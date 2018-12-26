@@ -44,7 +44,7 @@ $ unzip Reacher_Linux.zip
 ```bash
 $ jupyter notebook
 ```
-## Files
+## Files inside p2_continous-control
 
 ```bash
 TD3_agent.py - contains the Agent .
